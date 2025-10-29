@@ -36,7 +36,6 @@ class Qwen3SwiftKVConfig(Qwen3Config):
         swiftkv: bool = False,
         num_key_value_layers: Optional[int] = None,
         key_value_group_size: Optional[int] = None,
-        key_value_group_size: Optional[int] = None,
         **kwargs,
     ):
         super().__init__(**kwargs)
